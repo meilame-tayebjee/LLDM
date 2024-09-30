@@ -33,8 +33,8 @@
 	
 
 **Disclaimer**: 
-- The code in `lib` is an adaptation from [1]. In particular, we added there the LLDM implementation in \textt{lib/src/models/lldm}.
-- The code in `lib` is an adaptation from \textt{https://github.com/clementchadebec/geometric_perspective_on_vaes}
+- The code in `lib` is an adaptation from [1]. In particular, we added there the LLDM implementation in `lib/src/models/lldm`.
+- The code in `lib` is an adaptation from `https://github.com/clementchadebec/geometric_perspective_on_vaes`
 
 [1] Chadebec, C., Vincent, L. J., and Allassonni `ere, S. Pythae:
 Unifying generative autoencoders in python–a bench-
@@ -53,5 +53,5 @@ source lldm_env/bin/activate
 pip install -r requirements.txt
 ```
 
-All the notebooks in the folder \textt{notebooks} experiments-xxx.ipynb are then directly runnable and replicate the figures/tables of the paper.
+All the notebooks in the folder `notebooks` experiments-xxx.ipynb are then directly runnable and replicate the figures/tables of the paper.
 If anything wrong, please feel free to reach out.
