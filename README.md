@@ -34,7 +34,7 @@
 
 **Disclaimer**: 
 - The code in `lib` is an adaptation from [1]. In particular, we added there the LLDM implementation in `lib/src/models/lldm`.
-- The code in `lib` is an adaptation from `https://github.com/clementchadebec/geometric_perspective_on_vaes`
+- The code in `geometric_perspective_on_vaes` is an adaptation from `https://github.com/clementchadebec/geometric_perspective_on_vaes`
 
 [1] Chadebec, C., Vincent, L. J., and Allassonni `ere, S. Pythae:
 Unifying generative autoencoders in python–a bench-
