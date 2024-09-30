@@ -1,0 +1,12 @@
+*.npz
+from_jz
+*.png
+*.pt
+*.pkl
+from_jz_lvae
+__pycache__
+*.pdf
+*.json
+.DS_Store
+lldm/
+wandb/
