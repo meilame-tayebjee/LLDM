@@ -33,7 +33,8 @@
 	
 
 **Disclaimer**: 
-- The code in `lib` is an adaptation from [1]. In particular, we adapted their implementation of the IAF flows, the VAE and VAMP models and their trainer to plug our method.
+- The code in `lib` is an adaptation from [1]. In particular, we added there the LLDM implementation in \texttt{lib/src/models/lldm}.
+- The code in `lib` is an adaptation from \url{https://github.com/clementchadebec/geometric_perspective_on_vaes}
 
 [1] Chadebec, C., Vincent, L. J., and Allassonni `ere, S. Pythae:
 Unifying generative autoencoders in python–a bench-
@@ -44,9 +45,13 @@ Processing Systems Track on Datasets and Benchmarks,
 
 ## Setup
 
-First create a virtual env and activate it 
+Create an environment, activate it and install dependencies:
 
 ```bash
-conda create -n env python=3.8
-conda activate env
+python -m venv lldm_env
+source lldm_env/bin/activate
+pip install -r requirements.txt
 ```
+
+All the notebooks in the folder \texttt{notebooks} experiments-xxx.ipynb are then directly runnable and replicate the figures/tables of the paper.
+If anything wrong, please feel free to reach out.

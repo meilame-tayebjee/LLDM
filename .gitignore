@@ -11,3 +11,5 @@ __pycache__
 lldm/
 wandb/
 lldm_env/
+._.DS_Store
+data-models/
